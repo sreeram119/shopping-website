@@ -7,6 +7,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <title>SHOE STORE</title>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+     <style>
+         .c{
+        width: 100dvw;
+        height: 50dvh;
+        overflow: scroll;
+        padding: 20px;
+        display:flex;
+        justify-content: space-evenly;
+      }
+      @media(max-width:500px){
+        
+        .c{       
+          flex-direction: column;
+        }
+      }
+    </style>
 </head>
 <body>
     
@@ -42,7 +58,7 @@
     </div>
 </nav>
 
-<div class="container-fluid bg-warning d-flex justify-content-end flex-lg-row flex-column flex-sm-column flex-md-row align-items-center">
+<div class="container-fluid bg-warning d-flex justify-content-end flex-lg-row flex-column flex-sm-column flex-md-row align-items-center c">
     <div class="right mx-5">
         <h2 class="fw-bolder fs-1 text-dark">The Perfect Shoe for Every Individuality..</h2>
     </div>
